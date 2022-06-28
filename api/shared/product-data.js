@@ -30,6 +30,7 @@ const getRandomInt = () => {
 const addProduct = (product) => {
   product.id = getRandomInt();
   data.products.push(product);
+  console.log(data);
   return product;
 };
 
